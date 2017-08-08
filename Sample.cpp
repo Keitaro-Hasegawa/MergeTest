@@ -1,12 +1,15 @@
 //-------------------------
-// 基本文字コードはsjis
-// 改行コードはCRLF
+// 基本文字コードはUTF-8
+// 改行コードはLF
 //
 //-------------------------
 #include <stdio.h>
 
 int main ( ) {
-    printf( "hello!\n" );
+    printf( "aaa!\n" );
+	// テストCRLF混ぜ
+	// テストCRLF混ぜ
+	// テストCRLF混ぜ
     getchar();
     return 0;
 }
